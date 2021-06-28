@@ -880,6 +880,12 @@ body {
   font-weight: 300;
 }
 
+@media (max-width: 600px) {
+  .gallery__header-heading {
+    font-size: 6rem;
+  }
+}
+
 .gallery__header-para {
   color: var(--text-color-black);
 }
