@@ -49,6 +49,8 @@ const navAnimation = () => {
   }
 };
 
+
+//////////////////////////// Animating About Us Page ////////////////////////
 const aboutImageOdd = document.querySelectorAll(".team__image--container-odd");
 aboutImageOdd.forEach((image) => {
   gsap.to(image, {
