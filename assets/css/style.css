@@ -282,7 +282,7 @@ body {
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/assets/images/hero.jpg");
+    url("/assets/images/hero.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
@@ -296,7 +296,7 @@ body {
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-      url("/assets/images/hero-big.jpg");
+      url("/assets/images/hero-big.webp");
   }
 }
 
@@ -602,13 +602,13 @@ body {
   overflow-x: hidden;
 }
 .about-hero {
-  background-image: url("/assets/images/about-hero-1x.jpg");
+  background-image: url("/assets/images/about-hero-1x.webp");
   height: 90vh;
 }
 
 @media (min-resolution: 192dpi) and (min-width: 600px), (min-width: 2000px) {
   .about-hero {
-    background-image: url("/assets/images/about-hero-2x.jpg");
+    background-image: url("/assets/images/about-hero-2x.webp");
   }
 }
 
