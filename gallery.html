@@ -11,12 +11,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300&display=swap"
+      rel="preload"
+      as="style"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.min.css" />
-<!--    <link rel="stylesheet" href="assets/css/style.css" />-->
+<!--        <link rel="stylesheet" href="assets/css/style.css" />-->
     <script src="assets/js/app.min.js" defer></script>
-<!--    <script src="assets/js/app.js" defer></script>-->
+    <!--    <script src="assets/js/app.js" defer></script>-->
     <title>Jurassic Park - GALLERY</title>
   </head>
   <body>
@@ -59,19 +70,6 @@
               >
             </li>
           </ul>
-
-          <!--          <div class="navigation-color__box">-->
-          <!--            <p class="navigation-color__box&#45;&#45;title">-->
-          <!--              Pick your theme and it will be saved when you visit next.-->
-          <!--            </p>-->
-          <!--            <div class="navigation-color__tile mg-tp-md">-->
-          <!--              <button id="blue-btn">&nbsp;</button>-->
-          <!--              <button id="red-btn">&nbsp;</button>-->
-          <!--              <button id="green-btn">&nbsp;</button>-->
-          <!--              <button id="white-btn">&nbsp;</button>-->
-          <!--            </div>-->
-          <!--          </div>-->
-
           <footer class="navigation-footer">
             <p class="navigation-footer--text">
               Created by Ashish Pal. Copyright &copy; 2021-2022
@@ -99,7 +97,7 @@
       </nav>
       <section class="gallery-section">
         <header>
-          <h1 class="gallery__header-heading">Gallery</h1>
+          <h1 class="primary-heading">Gallery</h1>
           <p class="gallery__header-para">
             Check out some of our exciting images and all the fun activites that
             we do here.
@@ -325,10 +323,10 @@
         <div class="footer-container main-margin">
           <a href="/" class="footer__logo">
             <img
-                    src="/assets/images/logo-green.png"
-                    alt="green logo"
-                    decoding="async"
-                    loading="lazy"
+              src="/assets/images/logo-green.png"
+              alt="green logo"
+              decoding="async"
+              loading="lazy"
             />
           </a>
           <div class="footer__copyright">
